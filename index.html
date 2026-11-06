@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Пасмо — перукарня в центрі Сум, запис онлайн</title>
+<meta name="description" content="Перукарня «Пасмо» в центрі Сум, вул. Покровська 14. Стрижки, фарбування, укладання. Ціни наперед, запис онлайн за хвилину. Демо-сайт.">
+<meta name="theme-color" content="#2c1725">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="uk_UA">
+<meta property="og:title" content="Пасмо — перукарня в центрі Сум">
+<meta property="og:description" content="Стрижки, колір, укладання. Ціни наперед, запис онлайн.">
+<meta property="og:image" content="assets/hero-desktop.svg">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Onest:wght@400;500;600&family=Unbounded:wght@400;600;800&display=swap&subset=cyrillic">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "Пасмо",
+  "description": "Перукарня в центрі Сум (демо, вигаданий заклад)",
+  "telephone": "+380000000000",
+  "email": "hello@pasmo.example",
+  "url": "https://example.com/",
+  "image": "assets/hero-desktop.svg",
+  "priceRange": "₴₴",
+  "address": {"@type": "PostalAddress", "streetAddress": "вул. Покровська, 14", "addressLocality": "Суми", "addressCountry": "UA"},
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "20:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "17:00"}
+  ],
+  "sameAs": ["https://t.me/pasmo_demo", "https://instagram.com/pasmo_demo"]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#price">До цін</a>
+
+<header class="top">
+  <a class="top__logo" href="#top" aria-label="Пасмо — на початок">Пасмо</a>
+  <nav class="top__nav" aria-label="Розділи">
+    <a href="#price">Ціни</a><a href="#masters">Майстри</a><a href="#visit">Адреса</a>
+  </nav>
+  <a class="top__cta" href="#book">Записатися</a>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="h1">
+    <picture class="hero__pic">
+      <source media="(min-width: 760px)" srcset="assets/hero-desktop.svg" width="1600" height="900">
+      <img src="assets/hero-mobile.svg" width="900" height="1600" alt="Заглушка: майстриня розчісує пасмо в світлі вітрини салону">
+    </picture>
+    <p class="hero__note mono">Кадр 16:9 / 9:16 — майстер за роботою біля вікна</p>
+    <div class="hero__text">
+      <h1 id="h1"><span>Пасмо до пасма —</span> <em>і ви виходите іншою людиною.</em></h1>
+      <p class="hero__sub">Перукарня в центрі Сум. Ціна відома до того, як сядете в крісло.</p>
+      <div class="hero__act">
+        <a class="btn" href="#book">Записатися</a>
+        <a class="textlink" href="#price">Подивитися ціни</a>
+      </div>
+    </div>
+    <p class="hero__hours mono">Пн–Сб 09–20 · Нд 10–17</p>
+  </section>
+
+  <section class="band band--surface" id="price" aria-labelledby="h-price">
+    <div class="wrap">
+      <p class="label"><span class="mono">01</span> Карта відтінків</p>
+      <h2 id="h-price">Кожна послуга — як пасмо на ключці: видно, що це і скільки коштує.</h2>
+      <ol class="swatches">
+        <li class="swatch" style="--lvl:1">
+          <span class="swatch__no">01</span>
+          <span class="swatch__strand" aria-hidden="true"></span>
+          <span class="swatch__body"><b>Чоловіча стрижка</b><small>Машинка і ножиці, миття, укладка</small></span>
+          <span class="swatch__time">45 хв</span>
+          <span class="swatch__price">450<i> ₴</i></span>
+        </li>
+        <li class="swatch" style="--lvl:2">
+          <span class="swatch__no">02</span>
+          <span class="swatch__strand" aria-hidden="true"></span>
+          <span class="swatch__body"><b>Стрижка бороди й окантовка</b><small>Гаряче рушник, олія</small></span>
+          <span class="swatch__time">30 хв</span>
+          <span class="swatch__price">250<i> ₴</i></span>
+        </li>
+        <li class="swatch" style="--lvl:3">
+          <span class="swatch__no">03</span>
+          <span class="swatch__strand" aria-hidden="true"></span>
+          <span class="swatch__body"><b>Дитяча стрижка</b><small>До 12 років</small></span>
+          <span class="swatch__time">30 хв</span>
+          <span class="swatch__price">350<i> ₴</i></span>
+        </li>
+        <li class="swatch" style="--lvl:4">
+          <span class="swatch__no">04</span>
+          <span class="swatch__strand" aria-hidden="true"></span>
+          <span class="swatch__body"><b>Жіноча стрижка</b><small>Консультація, миття, укладка</small></span>
+          <span class="swatch__time">60 хв</span>
+          <span class="swatch__price">650<i> ₴</i></span>
+        </li>
+        <li class="swatch" style="--lvl:5">
+          <span class="swatch__no">05</span>
+          <span class="swatch__strand" aria-hidden="true"></span>
+          <span class="swatch__body"><b>Укладання</b><small>Хвилі, об'єм або гладке</small></span>
+          <span class="swatch__time">40 хв</span>
+          <span class="swatch__price">500<i> ₴</i></span>
+        </li>
+        <li class="swatch" style="--lvl:6">
+          <span class="swatch__no">06</span>
+          <span class="swatch__strand" aria-hidden="true"></span>
+          <span class="swatch__body"><b>Фарбування в один тон</b><small>Корінь або по довжині</small></span>
+          <span class="swatch__time">2 год</span>
+          <span class="swatch__price">1400<i> ₴</i></span>
+        </li>
+        <li class="swatch" style="--lvl:7">
+          <span class="swatch__no">07</span>
+          <span class="swatch__strand" aria-hidden="true"></span>
+          <span class="swatch__body"><b>Мелірування</b><small>Фольга або вільна техніка</small></span>
+          <span class="swatch__time">3 год</span>
+          <span class="swatch__price">2200<i> ₴</i></span>
+        </li>
+        <li class="swatch" style="--lvl:8">
+          <span class="swatch__no">08</span>
+          <span class="swatch__strand" aria-hidden="true"></span>
+          <span class="swatch__body"><b>Балаяж, айртач</b><small>Довжина впливає на ціну</small></span>
+          <span class="swatch__time">4 год</span>
+          <span class="swatch__price">від 3500<i> ₴</i></span>
+        </li>
+        <li class="swatch" style="--lvl:9">
+          <span class="swatch__no">09</span>
+          <span class="swatch__strand" aria-hidden="true"></span>
+          <span class="swatch__body"><b>Кератин і відновлення</b><small>Догляд з нагріванням</small></span>
+          <span class="swatch__time">2,5 год</span>
+          <span class="swatch__price">1800<i> ₴</i></span>
+        </li>
+        <li class="swatch" style="--lvl:10">
+          <span class="swatch__no">10</span>
+          <span class="swatch__strand" aria-hidden="true"></span>
+          <span class="swatch__body"><b>Вечірня і весільна зачіска</b><small>Пробна укладка в ціні</small></span>
+          <span class="swatch__time">1,5 год</span>
+          <span class="swatch__price">від 1500<i> ₴</i></span>
+        </li>
+      </ol>
+      <p class="fine">Студентам — мінус 10% у будні до 15:00. Ціни ілюстративні.</p>
+    </div>
+  </section>
+
+  <section class="band" id="masters" aria-labelledby="h-masters">
+    <div class="wrap">
+      <p class="label"><span class="mono">02</span> Майстри</p>
+      <h2 id="h-masters"><span>Троє людей, які слухають,</span> <em>перш ніж взяти ножиці.</em></h2>
+      <div class="masters">
+        <figure class="m m--lead">
+          <img src="assets/ph-portrait-a.svg" width="900" height="1200" loading="lazy" alt="Заглушка: портрет майстрині Оксани">
+          <figcaption><b>Оксана Мельник</b><span>Колорист · 11 років</span><small class="mono">Портрет 3:4, тепле світло</small></figcaption>
+        </figure>
+        <figure class="m">
+          <img src="assets/ph-portrait-b.svg" width="900" height="1200" loading="lazy" alt="Заглушка: портрет майстра Дениса">
+          <figcaption><b>Денис Гуменюк</b><span>Чоловічі стрижки, борода</span><small class="mono">Портрет 3:4</small></figcaption>
+        </figure>
+        <figure class="m">
+          <img src="assets/ph-portrait-c.svg" width="900" height="1200" loading="lazy" alt="Заглушка: портрет майстрині Марії">
+          <figcaption><b>Марія Кравець</b><span>Зачіски, укладання</span><small class="mono">Портрет 3:4</small></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--dark" aria-labelledby="h-work">
+    <div class="wrap work">
+      <figure class="work__big">
+        <img src="assets/ph-wide.svg" width="1600" height="900" loading="lazy" alt="Заглушка: балаяж до і після, горизонтальний кадр">
+        <figcaption class="mono">Робота: балаяж, 16:9</figcaption>
+      </figure>
+      <div class="work__text">
+        <p class="label"><span class="mono">03</span> Як ми працюємо</p>
+        <h2 id="h-work">Спочатку розмова, потім ножиці.</h2>
+        <dl class="steps">
+          <div><dt class="mono">Крок 1</dt><dd>Дивимося на волосся і розпитуємо, як ви його носите щодня.</dd></div>
+          <div><dt class="mono">Крок 2</dt><dd>Називаємо остаточну ціну й час. Нічого не додаємо в кінці.</dd></div>
+          <div><dt class="mono">Крок 3</dt><dd>Робимо. Показуємо в дзеркалі з усіх боків. Підправляємо безкоштовно протягом 7 днів.</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="visit" aria-labelledby="h-visit">
+    <div class="wrap visit">
+      <div>
+        <p class="label"><span class="mono">04</span> Адреса і години</p>
+        <h2 id="h-visit">Покровська, 14, двері з вітриною.</h2>
+        <address>
+          Суми, вул. Покровська, 14<br>
+          <small>Два кроки від площі, вхід з двору [уточнити]</small>
+        </address>
+        <ul class="links">
+          <li><a class="btn btn--line" href="https://www.google.com/maps/search/?api=1&amp;query=%D0%A1%D1%83%D0%BC%D0%B8%2C+%D0%BF%D1%80%D0%BE%D0%B2.+%D0%9F%D0%BE%D0%BA%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+14" target="_blank" rel="noopener">Як дістатися</a></li>
+          <li><a href="tel:+380000000000">+38 (000) 000-00-00</a></li>
+          <li><a href="https://t.me/pasmo_demo" target="_blank" rel="noopener">Telegram</a></li>
+          <li><a href="https://instagram.com/pasmo_demo" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="mailto:hello@pasmo.example">hello@pasmo.example</a></li>
+        </ul>
+      </div>
+      <div class="comb" role="table" aria-label="Години роботи">
+        <div class="comb__row" role="row"><span role="cell">Пн–Пт</span><span class="mono" role="cell">09:00–20:00</span></div>
+        <div class="comb__row" role="row"><span role="cell">Субота</span><span class="mono" role="cell">09:00–20:00</span></div>
+        <div class="comb__row" role="row"><span role="cell">Неділя</span><span class="mono" role="cell">10:00–17:00</span></div>
+        <div class="comb__teeth" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--accent" id="book" aria-labelledby="h-book">
+    <div class="wrap book">
+      <div>
+        <p class="label"><span class="mono">05</span> Запис</p>
+        <h2 id="h-book">Залиште номер — передзвонимо за 15 хвилин у робочий час.</h2>
+      </div>
+      <!-- Замінити YOUR_FORM_ID на свій ідентифікатор Formspree (або перейти на Netlify Forms: додати data-netlify="true"). -->
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="form">
+        <label>Ім'я<input name="name" type="text" autocomplete="given-name" required></label>
+        <label>Телефон<input name="phone" type="tel" autocomplete="tel" inputmode="tel" required placeholder="+38 0__ ___ __ __"></label>
+        <label>Послуга
+          <select name="service">
+            <option>Чоловіча стрижка</option><option>Жіноча стрижка</option><option>Фарбування</option>
+            <option>Мелірування / балаяж</option><option>Укладання / зачіска</option><option>Не знаю, порадьте</option>
+          </select>
+        </label>
+        <label>Бажаний час<input name="time" type="text" placeholder="Напр., завтра після 17:00"></label>
+        <button class="btn btn--dark" type="submit">Записатися</button>
+        <p class="form__ok" role="status" hidden>Дякуємо! Ми передзвонимо.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>© Пасмо, Суми</span>
+  <span>Демо-сайт, заклад вигаданий</span>
+</footer>
+
+<a class="sticky" href="#book">Записатися</a>
+<script src="script.js"></script>
+</body>
+</html>

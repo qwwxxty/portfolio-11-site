@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1600" width="900" height="1600">
+<defs>
+<radialGradient id="g1" cx="0.55" cy="0.4" r="0.7"><stop offset="0" stop-color="#7a2a55"/><stop offset="0.5" stop-color="#3d1a36"/><stop offset="1" stop-color="#1f0e1d"/></radialGradient>
+<radialGradient id="g2" cx="0.1" cy="0.95" r="0.5"><stop offset="0" stop-color="#109d7b" stop-opacity="0.45"/><stop offset="1" stop-color="#109d7b" stop-opacity="0"/></radialGradient>
+<filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.09 0"/></filter>
+</defs>
+<rect width="900" height="1600" fill="url(#g1)"/><rect width="900" height="1600" fill="url(#g2)"/>
+<g transform="translate(495 640) scale(1.2)" fill="none" stroke="#f4ebf1" stroke-opacity="0.16" stroke-width="3" stroke-linecap="round">
+<g transform="rotate(-24)"><path d="M-40 -380 L60 40 M40 -380 L-60 40"/><circle cx="-92" cy="86" r="62"/><circle cx="92" cy="86" r="62"/></g>
+<g stroke-opacity="0.1" transform="translate(-420 120) rotate(8)"><rect x="0" y="0" width="360" height="52" rx="6"/><path d="M18 52 v70"/><path d="M40 52 v70"/><path d="M62 52 v70"/><path d="M84 52 v70"/><path d="M106 52 v70"/><path d="M128 52 v70"/><path d="M150 52 v70"/><path d="M172 52 v70"/><path d="M194 52 v70"/><path d="M216 52 v70"/><path d="M238 52 v70"/><path d="M260 52 v70"/><path d="M282 52 v70"/><path d="M304 52 v70"/><path d="M326 52 v70"/></g>
+</g>
+<rect width="900" height="1600" filter="url(#n)"/>
+</svg>
